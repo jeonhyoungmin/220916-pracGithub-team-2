@@ -1,4 +1,6 @@
 import createTag from '../module-1.js'
+import DTG from './module-2.js';
+import DTGV from './changecolor.js';
 // * main.js
 
 // * 루트 js 파일
@@ -17,3 +19,6 @@ createTag("div", {
   height: "30vh",
   backgroundColor: "pink"
 }, root)
+
+DTG(root)
+DTGV(root)

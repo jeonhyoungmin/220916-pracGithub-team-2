@@ -1,6 +1,6 @@
-function DTG(name) {
+function DTGV(name) {
   name.addEventListener("click", function () {
-    name.style.color = "pink";
+    name.style.backgroundColor = "red";
   });
 }
 
@@ -29,4 +29,4 @@ addElement("div",{
   
 })*/
 
-export default DTG;
+export default DTGV;

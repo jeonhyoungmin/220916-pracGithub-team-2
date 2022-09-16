@@ -1,3 +1,4 @@
+import createTag from '../module-1.js'
 // * main.js
 
 // * 루트 js 파일
@@ -10,3 +11,9 @@ root.style.display = "flex"
 root.style.justifyContent = "center"
 root.style.alignItems = "center"
 root.style.backgroundColor = "cadetblue"
+
+createTag("div", {
+  width: "30vw",
+  height: "30vh",
+  backgroundColor: "pink"
+}, root)
